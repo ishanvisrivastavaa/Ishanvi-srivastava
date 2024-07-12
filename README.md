@@ -6,7 +6,8 @@ This project implements a multi-step form using React.js, featuring animations a
 The project is structured to provide a seamless user experience with smooth transitions between form steps using CSS animations. It utilizes React's state management to handle form data and navigation between steps. Local storage is employed to persist form data across page refreshes or revisits.
 
 **Porject Link**
-https://multipageapp.vercel.app/
+https://multipageform-rho.vercel.app/
+
 
 ## Functionalities
 
@@ -18,11 +19,9 @@ https://multipageapp.vercel.app/
 - Unit tests for critical components and validation functions.
 
 ## Screenshots
-
-![image](https://github.com/user-attachments/assets/36cbf095-b94e-4840-a23e-062bea5e9ec3)
-![image](https://github.com/user-attachments/assets/089f0469-ec74-4aa6-93e4-c3b9fd7561ed)
-![image](https://github.com/user-attachments/assets/c6cb8f1e-462d-43ac-b7a9-6446ee9f6ba7)
-
+![image](https://github.com/user-attachments/assets/7d886a09-28a6-41fa-8d32-c3f85367fb7c)
+![image](https://github.com/user-attachments/assets/99abe12f-a5ee-4cfd-a1af-62f012624987)
+![image](https://github.com/user-attachments/assets/044c2a66-dfad-4ec3-bba3-630a3a39a3db)
 
 ## Getting Started
 
