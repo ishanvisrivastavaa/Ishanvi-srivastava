@@ -1,0 +1,136 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+:root {
+  --gray-washed-white: #f5f5f5;
+  --space-blue: #0c4872;
+  --slate-gray: #6c757d;
+  --soft-gradient: linear-gradient(135deg, #f5f5f5, #b0c0c2);
+  --dark-gray: #4d6986;
+  --green: #28a745;
+  --red: #dc3545;
+}
+
+.heading {
+  color: var(--gray-washed-white);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 3rem;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid var(--slate-gray);
+  border-radius: 4px;
+  background-color: var(--gray-washed-white);
+  background-image: var(--soft-gradient);
+  color: var(--dark-gray);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: var(--space-blue);
+}
+
+.form-container div {
+  margin-bottom: 10px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--space-blue);
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid var(--slate-gray);
+}
+
+.form-container input:focus {
+  border-color: var(--dark-gray);
+}
+
+.form-container button {
+  margin-right: 10px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  background-color: var(--slate-gray);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.form-container button:hover {
+  background-color: #495057;
+  transform: scale(1.05);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  background-color: var(--slate-gray);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.nav-button.active {
+  background-color: var(--gray-washed-white);
+  color: var(--dark-gray);
+}
+
+.valid {
+  color: var(--green);
+}
+
+.error {
+  color: var(--red);
+  font-size: 12px;
+  margin-bottom: 10px;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.error-message {
+  color: var(--red);
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+}
+
+.phone-input select {
+  width: 3rem;
+  height: 2.2rem;
+  margin-right: 2px;
+}
+
+.loading {
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out;
+}
